@@ -1,0 +1,35 @@
+<html>
+<head>
+<script type="text/javascript">
+function okno_zamknij_szulist()
+{
+window.close()
+}
+function WinOpen_szulistg1()
+{
+window.open("grafika1.html","okienko3","toolbar=no,directories=no,menubar=no,height=400,width=100,bottom=300,right=300");
+}
+function WinOpen_szulistg2()
+{
+window.open("grafika2.html","okienko4","toolbar=no,directories=no,menubar=no,height=400,width=100,bottom=300,left=900");
+}
+function WinOpen_szulistg3()
+{
+window.open("grafika3.html","okienko5","toolbar=no,directories=no,menubar=no,height=400,width=100,top=300,right=300");
+}
+function WinOpen_szulistg4()
+{
+window.open("grafika4.html","okienko6","toolbar=no,directories=no,menubar=no,height=400,width=100,top=300,left=900");
+}
+</script>
+</head>
+<body>  
+ <form>
+   <input type="button" name="przycisk" value="grafika1" onclick="WinOpen_szulistg1(' ')">
+   <input type="button" name="przycisk" value="grafika2" onclick="WinOpen_szulistg2(' ')">
+   <input type="button" name="przycisk" value="grafika3" onclick="WinOpen_szulistg3(' ')">
+   <input type="button" name="przycisk" value="grafika4" onclick="WinOpen_szulistg4(' ')">
+  <input type="button" value="zamknij okno" onclick="okno_zamknij_szulist()"/>
+ </form>
+</body>
+</html>
